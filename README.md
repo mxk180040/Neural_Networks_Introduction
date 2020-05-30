@@ -6,4 +6,7 @@ In this part, you'll learn how to build a simple neural network from scratch usi
 You'll predict bike ridership using a simple neural network.
 
 
-Multi-layer neural network with some inputs and a single output. Image from Stanford's cs231n course.
+# Introduction to Deep Learning with PyTorch
+
+In this notebook, you'll get introduced to [PyTorch](http://pytorch.org/), a framework for building and training neural networks. PyTorch in a lot of ways behaves like the arrays you love from Numpy. These Numpy arrays, after all, are just tensors. PyTorch takes these tensors and makes it simple to move them to GPUs for the faster processing needed when training neural networks. It also provides a module that automatically calculates gradients (for backpropagation!) and another module specifically for building neural networks. All together, PyTorch ends up being more coherent with Python and the Numpy/Scipy stack compared to TensorFlow and other frameworks.
+
